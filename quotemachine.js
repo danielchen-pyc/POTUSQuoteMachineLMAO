@@ -8,7 +8,7 @@ function getQuote() {
     })
     .then(function(data) {
       displayQuote(data.message);
-    })
+    }) 
     .catch(function() {
       console.log("An error occurred.");
     });
